@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Test App</title>
+<style>
+body{margin:0;background:#f3f5f9;color:#182033;font-family:-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+main{max-width:440px;margin:55px auto;padding:24px}
+h1{font-size:28px;margin-bottom:8px}
+p{color:#5d6678;margin-bottom:26px}
+button{display:block;width:100%;padding:20px;margin:12px 0;background:white;border:1px solid #dce1ea;border-radius:16px;font-size:20px;font-weight:600;color:#1b2941;box-shadow:0 3px 12px #1820330a;cursor:pointer}
+button:active{background:#e6efff}
+</style>
+</head>
+<body>
+<main>
+<h1>My Test App</h1>
+<p>Tap any menu option.</p>
+<nav aria-label="Test menu">
+<button onclick="greet()">Test 1</button>
+<button onclick="greet()">Test 2</button>
+<button onclick="greet()">Test 3</button>
+<button onclick="greet()">Test 4</button>
+<button onclick="greet()">Test 5</button>
+</nav>
+</main>
+<script>
+function greet(){alert("Have a good night");}
+</script>
+</body>
+</html>
